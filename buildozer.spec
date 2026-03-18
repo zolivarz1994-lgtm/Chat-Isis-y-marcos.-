@@ -1,17 +1,17 @@
-[aplicación]
-título = Chat-Isis-Y-marcos
-nombre.del.paquete = isisymarcos
-paquete.dominio = org.isisymarcos
+[app]
+title = Chat-Isis-y-marcos
+package.name = isisymarcos
+package.domain = org.isisymarcos
 
-directorio.source = .
+source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 
-versión = 1.0
+version = 1.0
 
-Requisitos = Python 3, Kivy, KivyMD, Requests
+requirements = python3, kivy, kivymd, requests
 
-orientación = vertical
-pantalla completa = 0
+orientation = portrait
+fullscreen = 0
 
 android.permissions = INTERNET,ACCESS_NETWORK_STATE
 android.api = 31
@@ -25,4 +25,4 @@ p4a.bootstrap = sdl2
 
 [buildozer]
 log_level = 2
-advertir_en_raíz = 1
+warn_on_root = 1
